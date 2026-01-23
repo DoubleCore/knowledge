@@ -1,0 +1,40 @@
+/* 通过style settings插件，提供一个command快捷命令，隐藏/打开canvas的header显示 */
+
+/* @settings
+name: Canvas Settings
+id: canvas-settings
+settings:
+-
+    id: canvas-settings
+    title: Canvas
+    type: heading
+    description: 'Options to manipulate items in the Canvas.'
+    level: 2
+    collapsed: false
+-
+    id: ssopt-canvas-hide-node-labels
+    title: Hide Node Labels
+    type: class-toggle
+    description: "When enabled, hides the labels/titles on individual nodes (files/cards) in the Canvas."
+    default: false
+    addCommand: true
+-
+    id: ssopt-canvas-hide-group-labels
+    title: Hide Group Labels
+    type: class-toggle
+    description: "When enabled, hides the labels on groups in the Canvas."
+    default: false
+    addCommand: true
+*/
+
+/* willemstad主题自带，则无需额外添加下面2行代码 */
+
+/* Hide node labels when enabled */
+.ssopt-canvas-hide-node-labels .canvas-node-label {
+    display: none !important;
+}
+
+/* Hide group labels when enabled */
+.ssopt-canvas-hide-group-labels .canvas-group-label {
+    display: none !important;
+}

@@ -1,0 +1,100 @@
+{
+  "confirmDeletion": false,
+  "showAddCommand": false,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [
+    {
+      "id": "app:toggle-right-sidebar",
+      "icon": "align-right",
+      "name": "Toggle right sidebar",
+      "mode": "any"
+    },
+    {
+      "id": "app:toggle-left-sidebar",
+      "icon": "align-left",
+      "name": "折叠/展开左侧边栏",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-weread-plugin:sync-weread-notes-command",
+      "icon": "book-open",
+      "name": "Weread Plugin: Sync Weread Notes",
+      "mode": "any"
+    }
+  ],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "note-toolbar:open-toolbar-6268ed09-68fb-412d-b4ed-1ce94f5a83ad",
+      "icon": "circle-ellipsis",
+      "name": "Note Toolbar: Open: Tools - system level operations",
+      "mode": "desktop",
+      "color": "#dbb700"
+    },
+    {
+      "id": "open-vscode:open-vscode",
+      "icon": "lucide-file-code",
+      "name": "Open vault in VSCode: Open as Visual Studio Code workspace",
+      "mode": "desktop",
+      "color": "#00c4c7"
+    },
+    {
+      "id": "fix-require-modules:invokeScriptFile-切换review标签和notetoolbar的properties.ts",
+      "icon": "lucide-brain-circuit",
+      "name": "CodeScript Toolkit: Invoke Script: 切换review标签和notetoolbar的properties.ts",
+      "mode": "desktop",
+      "color": "#00f068"
+    },
+    {
+      "id": "file-explorer:reveal-active-file",
+      "icon": "lucide-folder-tree",
+      "name": "文件列表: 在文件列表中显示当前文件",
+      "mode": "any",
+      "color": "#184dec"
+    },
+    {
+      "id": "editor:toggle-source",
+      "icon": "code-glyph",
+      "name": "切换实时阅览/源码模式",
+      "mode": "any",
+      "color": "#9f00f5"
+    },
+    {
+      "id": "quartz-syncer:mark-toggle-publish-status",
+      "icon": "lucide-airplay",
+      "name": "Quartz Syncer: Toggle publication flag",
+      "mode": "desktop",
+      "color": "#ff0000"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [
+      "janitor",
+      "keyboard-analyzer",
+      "obsidian-focus-plugin",
+      "obsidian-textgenerator-plugin",
+      "repeat-plugin",
+      "properties",
+      "backlink",
+      "pane-relief"
+    ],
+    "leftRibbon": []
+  },
+  "spacing": "8",
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 2,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": true,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

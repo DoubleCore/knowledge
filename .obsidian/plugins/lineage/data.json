@@ -1,0 +1,92 @@
+{
+  "documents": {
+    "Cards/测试验证lineage视图语法.md": {
+      "documentFormat": "sections",
+      "viewType": "lineage",
+      "activeSection": "2.1",
+      "pinnedSections": {
+        "sections": [
+          "2.1.1",
+          "2.1.1",
+          "2.2"
+        ],
+        "activeSection": "2.2"
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "🍀 花园导览/🧰 本库指南/Obsidian/Plugins/∑ obsidian插件.md": {
+      "documentFormat": "sections",
+      "viewType": "lineage",
+      "activeSection": null,
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    }
+  },
+  "hotkeys": {
+    "customHotkeys": {}
+  },
+  "view": {
+    "fontSize": 16,
+    "h1FontSize_em": 1.802,
+    "theme": {
+      "inactiveNodeOpacity": 25
+    },
+    "cardWidth": 430,
+    "cardsGap": 50,
+    "scrolling": {
+      "centerActiveNodeH": true,
+      "centerActiveNodeV": true
+    },
+    "limitPreviewHeight": false,
+    "zoomLevel": 0.623,
+    "showMinimap": false,
+    "showLeftSidebar": false,
+    "leftSidebarWidth": 500,
+    "leftSidebarActiveTab": "recent-cards",
+    "applyGapBetweenCards": false,
+    "outlineMode": false,
+    "nodeIndentationWidth": 60,
+    "maintainEditMode": true,
+    "alwaysShowCardButtons": true,
+    "hiddenVerticalToolbarButtons": []
+  },
+  "general": {
+    "defaultDocumentFormat": "sections",
+    "linkPaneType": "tab"
+  },
+  "styleRules": {
+    "documents": {},
+    "global": {
+      "rules": [
+        {
+          "id": "srfQpD3h__",
+          "name": "",
+          "enabled": true,
+          "condition": {
+            "type": "condition",
+            "scope": "self",
+            "property": "content",
+            "operator": "contains",
+            "value": "",
+            "enabled": true
+          },
+          "style": {
+            "color": "#b2f5ed",
+            "styleVariant": "background-color"
+          },
+          "priority": 0
+        }
+      ]
+    },
+    "settings": {
+      "activeTab": "global-rules"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+# 无用状态文件屏蔽
+.DS_Store
+.trash
+
+# 带token的敏感插件数据屏蔽
+.obsidian/plugins/remotely-save/data.json
+.obsidian/plugins/obsidian-local-rest-api/data.json
+.obsidian/plugins/obsidian-weread-plugin/data.json
+.obsidian/plugins/simpread/data.json
+.obsidian/plugins/obsidian-to-notion/data.json
+.obsidian/plugins/obsidian-textgenerator-plugin/data.json
+.obsidian/plugins/ava/data.json
+.obsidian/plugins/digitalgarden/data.json
+.obsidian/plugins/smart-connections/data.json
+.obsidian/plugins/chatgpt-md/data.json
+
+
+# 没必要上传的数据屏蔽
+.obsidian/plugins/recent-notes/data.json
+.obsidian/plugins/omnisearch/searchIndex.json
+.obsidian/plugins/omnisearch/notesCache.json
+.obsidian/plugins/obsidian-advanced-slides/**
+.obsidian/plugins/obsidian-excalidraw-plugin/data.json
+.obsidian/plugins/wucai-highlights-official/data.json
+.obsidian/plugins/obsidian-douban-plugin/data.json
+.obsidian/plugins/weread-plugin/data.json
+.obsidian/plugins/obsidian-excalidraw-plugin/data.json
+
+# 自己私人使用插件
+.obsidian/plugins/obsidian-content-protection
+.obsidian/plugins/components
+.obsidian/plugins/quartz-syncer/data.json
+.obsidian/plugins/cubox-sync/data.json
+.obsidian/plugins/obsidian-image-auto-upload-plugin/data.json
+
+
+# workspace文件若不上传，会导致用户下载库以后，新打开的界面的布局信息丢失
+# .obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspaces.json
+
+
+## 自己开发自用的插件屏蔽，还不成熟
+
+.obsidian/plugins/obsidian-presentation-enhanced
+.obsidian/plugins/obsidian-smart-canvas
+.obsidian/plugins/rclone-uploader
+
+
+# obsidian发布用文件不需要上传
+publish.css
+publish.js
+
+# 不上传pdf,epub,mobi文件
+*.pdf
+*.epub
+*.mobi
+
+# 不上传office文件
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.doc
+*.docx
+
+
+# # 脚本类文件不上传
+# *.py
+# *.sh
+# *.js
+# *.ts
+
+
+# txt
+*.txt
+
+# 配置文件
+*.json
+*.yaml
+
+# 日志文件
+*.log
+
+# Ignore Smart Connections folder because embeddings file is large and updated frequently
+.smart-connections
